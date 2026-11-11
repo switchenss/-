@@ -1,0 +1,8 @@
+outputs/
+work/
+__pycache__/
+*.pyc
+GS_Workstation/runtime/
+GS_Workstation/data_cache/
+GS_Workstation/.workstation.lock
+GS_Workstation/watchlist.json

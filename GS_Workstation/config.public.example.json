@@ -1,0 +1,10 @@
+{
+  "copyright":"Copyright (C) 2026 Swiftchen",
+  "author":"Swiftchen",
+  "note":"Public template. Copy to config.json and set your own universe, data, backtest and DCA parameters locally.",
+  "universe":{"US":[],"CN":[]},
+  "data":{"US":"yahoo","CN":"eastmoney","timeout_seconds":15,"close_buffer_minutes":30},
+  "signals":{},
+  "backtest":{"horizons":[5,10,20],"commission_bps":5,"slippage_bps":5},
+  "dca":{"initial_total_rmb":null,"initial_months":null,"later_monthly_rmb":null,"later_batch_months":null,"drift_band":0.05,"max_tilt":0.1,"fixed_fee_usd":1}
+}

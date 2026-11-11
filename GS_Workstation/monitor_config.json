@@ -1,0 +1,52 @@
+{
+  "copyright": "Copyright © 2026 Swiftchen",
+  "author": "Swiftchen",
+  "mode": "alert",
+  "watchlist_file": "watchlist.json",
+  "poll_seconds": 60,
+  "popup": true,
+  "sound": true,
+  "us": {
+    "scope": "core",
+    "bar_minutes": 5,
+    "lookback_days": 14,
+    "data_lag_minutes": 2,
+    "max_age_minutes": 30,
+    "boats": false,
+    "volume_window": 20,
+    "full_volume_min": {
+      "Core": 1.25,
+      "Pre-Market": 1.8,
+      "After-Hours": 1.8,
+      "Overnight": 2.5
+    },
+    "regular_feed": "yahoo"
+  },
+  "resonance": {
+    "red_min": 1.2,
+    "purple_min": 1.8,
+    "s_flow_max": 0,
+    "notional_min": 1.5,
+    "obv_window": 5,
+    "cn_aux_max_age_days": 4,
+    "s_activity_drop_ratio": 0.75,
+    "s_activity_lookback": 5
+  },
+  "alert_signals": [
+    "G",
+    "S"
+  ],
+  "paper": {
+    "max_position_pct": 15,
+    "daily_loss_pct": 3,
+    "atr_multiple": 2.5,
+    "limit_offset_bps": 10,
+    "fee_bps": 5
+  },
+  "watch_policy": "paper_opt_in",
+  "live": {
+    "chart_enabled": true,
+    "interval_seconds": 60,
+    "sip_realtime": false
+  }
+}
